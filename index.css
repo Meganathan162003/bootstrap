@@ -1,0 +1,28 @@
+.navbar-nav .nav-link:hover{
+    font-weight: bolder;
+
+}
+.bg-img{
+    background-size: cover;
+}
+@media screen and (max-width:400px) {
+    .bg-img{
+        background-position: center;
+    }
+    
+}
+@media screen and (max-width:400px){
+.sec4{
+    display: block;
+      flex-direction: column;
+}
+.sec4 .rounded{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+}
+.sec6 .card{
+    box-shadow: 7px 3px 36px 18px rgba(0,0,0,0.54);
+-webkit-box-shadow: 7px 3px 36px 18px rgba(0,0,0,0.54);
+-moz-box-shadow: 7px 3px 36px 18px rgba(0,0,0,0.54);
+}
